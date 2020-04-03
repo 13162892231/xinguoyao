@@ -1,0 +1,113 @@
+﻿.commoditype dl dt span.left_icon{margin-top:15px;}
+.westmedicine a{margin-right:6px;}
+/*商品分类*/
+.commoditype{display:block;  background:none;background-color:#f2f2f2; height:405px;}
+.commoditype dd a{color:#666666;}
+.commoditype dt{color:#333333;}
+.commoditype dd{margin-left:0;}
+.title_main{background-color:white; margin:0 6px 0 6px;}
+.commoditype .title_main{margin-top:10px; margin-bottom:0;}
+.commoditype dl dt span.type_icon{background:url(../images/shop_index.png) no-repeat;}
+.commoditype dl dt span.type_icon_01{background-position:0 0;padding-left:30px;}
+.commoditype dl dt span.type_icon_02{background-position:0 -22px;padding-left:30px;}
+.commoditype dl dt span.type_icon_03{background-position:0 -47px;padding-left:30px;}
+.commoditype dl dt span.type_icon_04{background-position:0 -69px;padding-left:30px;}
+.commoditype dd{border-bottom:0;}
+.shopindex_type img{margin:13px 0 3px 18px;}
+.shopindex_type{margin-bottom:15px;}
+.shopindex_type span{font-size:16px; font-weight:600; display:inline-block; margin:10px 0 0 5px;}
+.all_main .newdrug, .all_main .shoparea, .all_main .arrondi_left, .area_active, .all_main .prefecture, .carousel_four, .commoditype, .mid_right, .type_detail{   box-shadow: none;}
+.shin_search{margin-top:18px;}
+.shin_search  input{padding-left:20px; width:130px; height:33px; background-color:#fbfafa; color:#d5d5d5;  font-weight: 600; border:1px solid #e7e7e7;*float:left;}
+.shin_search a{ display:inline-block; float:right;  margin-right: 5px;}
+.shin_search a img{margin:0;width:61px; height:35px;}
+
+.middle_main{width:1200px; margin:0px auto ;  overflow: hidden;}
+.middle{overflow:hidden;}
+
+
+/*轮播*/
+
+.middle .slides a,.middle .slides{width:1920px;}
+.button {display: inline-block;zoom: 1; *display: inline;vertical-align: baseline;margin: 0 2px;outline: none;cursor: pointer;text-align: center;text-decoration: none;font: 14px/100% Arial, Helvetica, sans-serif;padding:0.25em 0.6em 0.3em;text-shadow: 0 1px 1px rgba(0,0,0,.3);-webkit-border-radius: .5em; -moz-border-radius: .5em;border-radius: .5em;-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);box-shadow: 0 1px 2px rgba(0,0,0,.2);}
+.red {color: #faddde;border: solid 1px #980c10;background: #d81b21;background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#A51715));background: -moz-linear-gradient(top,  #ed1c24,  #A51715);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');}
+.red:hover { background: #b61318; background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115)); background: -moz-linear-gradient(top,  #c9151b,  #a11115); filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115'); color:#fff; text-decoration:none}
+.red:active {color: #de898c;background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');}
+
+.keChgImg { height: 488px; width:742px; min-width:742px; background: #FFF; position: relative; overflow: hidden; margin: 1px auto; }
+.keImgs li { float: left; height: 488px; width: 742px; }
+.keImgs { height: 488px; overflow: hidden; position: absolute; left: 0px; top: 0px; }
+.keImgs li img{width:742px; height:452px; }
+.keChgImg:hover .keChgBtnL,.keChgImg:hover .keChgBtnR {background-color:#666666; opacity:0.5;filter: alpha(opacity=50); }
+
+.keImgTitleBg { line-height: 28px; background: #FFF; height: 28px; width: 420px; position: absolute; left: 0px; bottom: 0px; opacity:0.9; filter:alpha(opacity=90) }
+.keImgBtn { float: right; position: absolute; bottom:48px; right: 43%; }
+.keImgBtn ul li { float: left; height:7px; width: 12px; margin-left:15px; text-align: center; padding-top: 6px; position: relative;  cursor: pointer;line-height:10px; }
+.keImgBtn ul li:hover{background-color:#6bad25;}
+.keCor1 ,.keCor2 ,.keCor3 ,.keCor4 ,.keCor5{ background-color:#bab5af; /*border-radius:100px;*/ width:10px; height:10px;  }
+.keCor2 a ,.keCor1 a ,.keCor1 a ,.keCor3 a ,.keCor4 a ,.keCor5 a {width:20px; height:20px; background-color:#6bad25; /*border-radius:100px;*/ display:block;}
+.keImgBtn ul li a { display: none; position: absolute; left: -3px; top: 0px; }
+.keImgBtn ul li.keImgCutLi a{display:block}
+.btn{width:737px;position:relative;height:400px;margin:0px auto;}
+.keChgBtnL { position: absolute; left: 8px; top: 46%; cursor: pointer; z-index:10; width:43px; height:69px;}
+.keChgBtnR { position: absolute; right:6px; top: 46%; cursor: pointer; z-index:10; width:43px; height:69px; }
+.mid_type { width: 1200px;}
+
+/*右边区域*/
+.middle{position:relative;}
+.drug_pages{width: 210px; top:6px; right:0; position:absolute;}
+.pages_name img{width:66px; height:33px;}
+.pages_name b{font-size:14px;  display: inline-block;margin-left:32px; margin-top: 9px;}
+.seavers .pre_sale{ font-size:14px;}
+.seavers{margin-top:7px; border-bottom:1px dashed #aaaaaa; padding-bottom:15px;}
+.seavers .sale_name{ margin-top:8px;}
+.seavers .sale_name img {margin:-5px 0 0 15px;}
+.seavers .sale_name  a{width:68px; height:18px; display:inline-block; background-color:#6bad25; color:white; line-height:18px; text-align:center; border-radius:2px; margin-left:18px; margin-top:-2px; }
+.quality{border-bottom:1px dashed #aaaaaa; padding-bottom:11px;}
+.quality  p{margin-top:10px;}
+.quality  p span{margin-right:15px;}
+.quality .detail a{color:#6bad25;}
+.phone_name {margin-top:13px;}
+.phone_name  p{margin-bottom:6px;}
+.phone_name .promit img{width:21px; height:21px; margin-left:7px;}
+.phone_name .area a {width: 107px;height: 20px; background-color: #0a55a5; color: white;text-align: center;line-height: 20px; display: inline-block;}
+.phone_name .arean_datail{color:#0a55a5;display: block;}
+ .cellect_shop a {width:210px; height:31px; line-height:31px; background-color:#6bad25; color:white; display:inline-block;font-size:15px;}
+.cellect_shop a img{ margin:2px 17px 0 33px;*margin-top:-3px;}
+.cellect_shop{margin-top:11px;}
+
+
+ /*最近浏览的商品*/
+.similar_goods{width:1200px; margin:46px auto 0;}
+.similar_goods .similar_name{font-size:18px; font-weight:600; padding-bottom:13px;padding-left:10px;  width: 113px; border-bottom:3px solid red;}
+.similar_goods .similar_name img{margin:3px 8px 0 -8px ;}
+.similar_goods .similar_detail{ border-top: 1px solid #e7e7e7;}
+.similar_detail p{margin-top:3px;}
+.similar_detail .name_pri{color:red; font-size:18px;}
+.similar_detail .name_call{overflow: hidden; height: 22px; width: 185px;}
+.similar_detail .name_types{ overflow: hidden; height: 22px;width: 185px;}
+.similar_detail ul{margin-bottom:20px;}
+.similar_detail ul li{float:left;margin-right:0px;position:relative;margin-left:15px;}
+.similar_detail ul li img{width:150px; height:150px;padding-top:35px;}
+.similar_detail ul li img.hunsn{width:48px; height:33px; position:absolute; top:15px; right:6px;padding-top:0;}
+.allshop_title .bgtr_03 .goods_price a.cur,.allshop_title .bgtr_03 .goods_price a.cur{color:white; background-color:#ff4f51;}
+
+
+.hots_goods{width:1200px; margin:46px auto 0;}
+.hots_goods .similar_name{font-size:18px; font-weight:600; padding-bottom:13px;padding-left:10px;  width: 113px; border-bottom:3px solid red;}
+.hots_goods .similar_name img{margin:3px 8px 0 -8px ;}
+.hots_goods .similar_detail{ border-top: 1px solid #e7e7e7;}
+.hots_goods p{margin-top:3px;}
+.hots_goods .name_pri{color:red; font-size:18px;}
+.hots_goods .name_call{overflow: hidden; height: 22px; width: 185px;font-size: 14px;}
+.hots_goods .name_types{ overflow: hidden; height: 22px;width: 185px;}
+.hots_goods ul{margin-bottom:20px;}
+.hots_goods ul li{float:left;margin-right:0px;position:relative;margin-left:15px;  margin-right: 40px;}
+.hots_goods ul li img{width:150px; height:150px;padding-top:35px;}
+.hots_goods ul li img.hunsn{width:48px; height:33px; position:absolute; top:15px; right:6px;padding-top:0;}
+.hots_goods .manufactor{color:#919191;}
+
+.pagelist{ margin: 34px auto; padding-bottom: 40px;  width: 500px;}
+.pagelist ul{float:none;}
+/*底部样式*/
+.footer{  margin-top: 40px;border-top: 1px solid #e7e7e7;}

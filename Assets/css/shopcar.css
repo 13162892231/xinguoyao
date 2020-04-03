@@ -1,0 +1,75 @@
+﻿
+input[type='text'], input[type='number'], input[type='date'], input[type='datetime-local'], input[type='password'], input[type='email']
+{padding:0;}
+/*购物车*/
+.order_moneycar {width:1200px; margin:40px auto 0;overflow: hidden;}
+ul.orderLiu{display: block; margin-left:255px;}
+ul.orderLiu li{display: block;float: left; background:url(../images/buy_item_bak.png) no-repeat 0 0;width: 230px;height: 97px;text-align: center;}
+ul.orderLiu li p{display: block;font-size: 14px;margin-top:20px;color:#808080;}
+ul.orderLiu li strong{display: block;font-size: 12px;color: #7d7d7d; font-weight: normal;margin-top: 14px;}
+ul.orderLiu li.cur{background:url(../images/buy_item_bak_cur.png) no-repeat 0 46px;}
+ul.orderLiu li.cur p{color: #47b6e7;}
+
+
+/*全部商品*/
+.allshop_title{width:1200px; margin:0px auto;padding-top:20px;}
+.allshop_title .allshop_name a{font-size:14px;border-left:1px solid #cecece; padding-left:5px;height:20px;margin-left :5px; color:gray;}
+.allshop_title .allshop_name span{font-weight:600;font-size:18px;}
+.allshop_title .allshop_name{padding-bottom:26px;}
+.allshop_title .bgtr_01{background-color:#f7f7f7;height:38px; line-height:38px; border:1px solid #e7e7e7; }
+
+.list{width:1200px;margin:0px auto;}
+table thead th{margin:0;font-weight:400;height:40px;border:1px solid #e7e7e7;color:#666666;background-color:#f7f7f7;}
+table thead th.choose{width:128px;text-align:left;padding-left:19px;border-right:0;}
+table thead th.product{width:271px;text-align:left;}
+table thead th.price,table thead th.company,table thead th.subtotal,table thead th.types,table thead th.amount{width:134px;}
+table thead th.operation {width:110px;}
+table thead th.product,table thead th.price,table thead th.amount,table thead th.company,table thead th.subtotal,table thead th.types{border-right:0;border-left:0;}
+table thead th.operation{border-left:0;}
+table tbody tr td{background-color:#f9fef4;height:100px;text-align:center;font-size:14px;border-top:1px solid #e7e7e7;margin-top:-1px;}
+table tbody tr.choose td{border-bottom:2px solid #7e7e7e;background-color:#fff;height:40px;text-align:left;padding-left:20px;border-top:0;}
+table tbody tr.choose td{color:#333;}
+table tbody td.choose{text-align:left;padding-left:20px;}
+table tbody td.choose,table tbody td.product{text-align:left;}
+table tbody td.product a{width:255px;margin-top: -25px;color:#333;font-size:12px; display:inline-block;}
+table tbody td.product a:hover{color:#ff4f51;}
+table tbody td.price{text-align:right;padding-right:43px;}
+table tbody td.company{color:#737472;}
+table tbody td.subtotal{text-align:right;padding-right:42px;color:#ff4f51;}
+/*table tbody td.types{width:54px;margin-left:7px;}*/
+table tbody td.types span{display:block; padding:4px 0;cursor:pointer;background-color: #ffeded;color: #ff4f51;margin-bottom: 5px;width:54px;margin:0 auto;}
+table tbody td.types span.dismountle{margin:0px auto 5px;}
+table tbody td.types span.cur{background-color:#ff4f51;color:#fff;}
+/*table tbody td.amount {width:110px;overflow:hidden;float:right;height: 30px;padding-top: 17px;}*/
+table tbody td.amount span{border:1px solid #e7e7e7;padding:4px 9px;}
+table tbody td.amount span.rednum,table tbody td.amount span.addnum{cursor:pointer;}
+table tbody td.amount span.quantity{border-left:0;border-right:0;}
+table tbody td a.delete{margin-right:7px;}
+
+.allshop_title ul li{float:left;}
+.allshop_title .totle_all{height:38px; line-height:38px; border:1px solid #e7e7e7;  margin-top: 22px; }
+input[type="checkbox"]#all_chooses{margin:0 15px 0 19px}
+.allshop_title .totle_all .totle_goods{margin-left:16px;}
+.allshop_title .totle_all .totle_move{margin-left:35px;}
+.allshop_title .totle_all .totle_price {float:right; margin-right:30px; font-size:14px;}
+.allshop_title .totle_all .totle_price  .detail_price{color:red;font-size:18px;}
+
+.allshop_title .pay_main{overflow:hidden;}
+.allshop_title .pay{ width:195px; height:41px; display:block; color:white; font-size:16px; background-color:#ff4f51; text-align:center; line-height:41px; float:right; margin-top:28px;}
+.allshop_title .pay img{  margin: 6px 26px 0 -37px;}
+
+.similar_goods{width:1200px; margin:46px auto 0;}
+.similar_goods .similar_name{font-size:18px;font-weight:600; padding-bottom:13px;padding-left:10px;  width: 139px; border-bottom:3px solid red;}
+.similar_goods .similar_detail{ border-top: 1px solid #e7e7e7;}
+.similar_detail p{margin-top:10px;}
+.similar_detail .name_pri{color:red;font-size:18px;}
+.similar_detail .name_call{font-size:16px;overflow: hidden; height: 22px; width: 185px;}
+.similar_detail .name_types{font-size:12px;  overflow: hidden; height: 22px;width: 185px;}
+
+.similar_detail ul li{float:left;margin-right:55px;position:relative;}
+.similar_detail ul li img{width:150px; height:150px;padding-top:47px;}
+.similar_detail ul li img.hunsn{width:48px; height:33px; position:absolute; top:15px; right:6px;padding-top:0;}
+.allshop_title .bgtr_03 .goods_price a.cur,.allshop_title .bgtr_03 .goods_price a.cur{color:white; background-color:#ff4f51;}
+
+/*底部样式*/
+.footer{  margin-top: 83px;border-top: 1px solid #e7e7e7;}

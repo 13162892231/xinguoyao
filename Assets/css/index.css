@@ -1,0 +1,380 @@
+﻿/*主体部分*/
+.main{border-top:1px solid #6aac26;}
+.all_main{margin:0px auto 45px ;overflow:hidden;background-color:#ffffff;}
+
+/*焦点轮播*/
+.middle{position:absolute; width:100%; min-width:1200px;}
+.middle .slides a,.middle .slides{width:1920px;}
+.button {display: inline-block;zoom: 1; *display: inline;vertical-align: baseline;margin: 0 2px;outline: none;cursor: pointer;text-align: center;text-decoration: none;font: 14px/100% Arial, Helvetica, sans-serif;padding:0.25em 0.6em 0.3em;text-shadow: 0 1px 1px rgba(0,0,0,.3);-webkit-border-radius: .5em; -moz-border-radius: .5em;border-radius: .5em;-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);box-shadow: 0 1px 2px rgba(0,0,0,.2);}
+.red {color: #faddde;border: solid 1px #980c10;background: #d81b21;background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#A51715));background: -moz-linear-gradient(top,  #ed1c24,  #A51715);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');}
+.red:hover { background: #b61318; background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115)); background: -moz-linear-gradient(top,  #c9151b,  #a11115); filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115'); color:#fff; text-decoration:none}
+.red:active {color: #de898c;background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');}
+
+.keChgImg { height: 488px; width: 100%; min-width:1200px; background: #FFF; position: relative; overflow: hidden; margin: 0px auto; }
+.keImgs li { float: left; height: 488px; width: 1920px; }
+.keImgs { height: 488px; overflow: hidden; position: absolute; left: 0px; top: 0px; }
+.keImgs li img{width:1920px; height:488px; }
+.keChgImg:hover .keChgBtnL,.keChgImg:hover .keChgBtnR {background-color:#666666; opacity:0.5;filter: alpha(opacity=50); }
+
+.keImgTitleBg { line-height: 28px; background: #FFF; height: 28px; width: 420px; position: absolute; left: 0px; bottom: 0px; opacity:0.9; filter:alpha(opacity=90) }
+.keImgBtn { float: right; position: absolute; bottom: 36px; right: 48%; }
+.keImgBtn ul li { float: left; height:7px; width: 12px; margin-left:15px; text-align: center; padding-top: 6px; position: relative;  cursor: pointer;line-height:10px; }
+.keImgBtn ul li:hover{background-color:#6bad25;}
+.keCor1 ,.keCor2 ,.keCor3 ,.keCor4 ,.keCor5{ background-color:#bab5af; /*border-radius:100px;*/ width:10px; height:10px;  }
+.keCor2 a ,.keCor1 a ,.keCor1 a ,.keCor3 a ,.keCor4 a ,.keCor5 a {width:20px; height:20px; background-color:#6bad25; /*border-radius:100px;*/ display:block;}
+.keImgBtn ul li a { display: none; position: absolute; left: -3px; top: 0px; }
+.keImgBtn ul li.keImgCutLi a{display:block}
+.btn{width:775px;position:relative;height:400px;margin:0px auto;}
+.keChgBtnL { position: absolute; left: 20px; top: 51%; cursor: pointer; z-index:10; width:43px; height:69px;}
+.keChgBtnR { position: absolute; right:20px; top: 51%; cursor: pointer; z-index:10; width:43px; height:69px; }
+
+
+.mid_type { width: 1200px;}
+/*左边药品分类栏*/
+.commoditype {display:block;}
+
+.flex-control-nav li{margin: 0 5px 6px 0;}
+.flex-control-nav li a {width: 15px;height: 15px;}
+.flex-control-nav li a.active{background-position: 0 -30px;}
+.flex-control-nav li a:hover{background-position: 0 -15px;}
+
+/*公告通知*/
+.middle_right{width:1200px;margin:0px auto;position:relative;}
+.mid_right .notice{float:left; width:225px;height:63px;overflow:hidden;}
+.mid_right .notice h2 img{margin:-4px 0 0 0px;}
+.notice h2{margin-bottom: 4px;}
+.mid_right .notice span{margin:16px 0 0 16px; font-size:20px; font-weight:bold;}
+.mid_right .notice  a{line-height:28px;overflow:hidden;}
+.notice h2 span{background:url(../images/notice.png) no-repeat -2px; }
+.mid_right{ width:225px; left:auto; overflow: hidden;position: absolute;top:40px; right:0;}
+.mid_right .notice span{margin-right:12px;}
+.mid_right .notice{height:auto;margin-bottom:10px;background-color:white;}
+.notice h2{border-bottom: 1px solid #6bad25;margin-top: 10px;padding-bottom:5px; font-size:16px;margin-bottom:10px;}
+.notice p{margin-left:20px;  width: 225px; height:35px; overflow: hidden;}
+.mid_right .notice{height:auto;margin-bottom:3px;background-color: rgba(255,255,255,0.9);}
+.notice .helpn{margin-top:0px;margin-left:0px;line-height:35px;}
+.notice .helpn a{line-height:45px;font-weight:400; font-size:12px;}
+.notice .helpn span{margin-right:15px;}
+.notice .helpn span img{margin-right:6.5px;margin-top:9px;*margin-top:2px;}
+.notice .login {display:block; width:184px; margin-left:20px; height:28px; background-color:#6aac26; text-align:center;color:white; font-weight:800; margin-top:15px;}
+.notice .accountn{  margin: 10px 0 0 67px;padding-bottom:7px;}
+.notice .accountn a{color:#6aac26;}
+
+
+/*边框阴影*/
+/*投影方式 X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色;*/
+/*.commoditype{box-shadow: -5px 4px 16px -1px #8C8B85;    }
+.carousel_four{box-shadow: -5px 4px 16px -1px #8C8B85;}*/
+
+/*商品速递*/
+.new_title{width:1200px;  margin: 521px auto 0;}
+.new_title .newn{font-size:18px;font-weight:800;margin-left:14px;} 
+.new_title span{font-size:13px; margin-left:30px;}
+.new_title .goodsn_main{overflow:hidden;margin-top:25px;height:302px;}
+.new_title .goodsn_01{width:390px; height:292px;background-color:white;float:left;position:relative;}
+.goodsn_main .goodsn_01{border:5px solid white; }
+.goodsn_main .goodsn_01:hover{border:5px solid #eaeceb;}
+.goodsn_main .goodsn_01:hover .right_now{background-color:#6bad25; color:white;}
+.goodsn_01 .newsn{position:absolute; top:-10px ; left:120px;}
+ .new_title .goodsn_01 img{margin:28px 0 0 22px;float:left;}
+.goodsn_01 .goodsn_01_main{float:right;margin:50px 50px 0 0 ;}
+ .new_title .goodsn_01 .title_01{font-weight:800; font-size:20px;width:150px; line-height:35px;}
+ .new_title .goodsn_01 .tro_01{margin-top:15px;font-size:14px; color:#666666;}
+.new_title .goodsn_01 .peice_01{color:red;font-size:24px;margin-top:12px;}
+ .new_title .goodsn_01 .right_now{display:block; width:105px; height:28px; border:1px solid #c2c2c2; text-align:center; line-height:28px;margin-top:15px;}
+ .new_title .goodsn_01 .right_now img{margin:9px 0 0 12px; font-size:14px;  float: none;*margin-top:3px;}
+ .new_title .nnn_01, .new_title .nnn_02{display:block; background-color:#bab4b4; width:20px; height:20px; text-align:center; line-height:20px;float:right;}
+.new_title .nnn_01 img, .new_title .nnn_02 img{margin-top:5px;}
+ .new_title .nnn_01:hover,.new_title .nnn_02:hover{background-color:#6aac26;}
+ .new_title .nnn_01{margin-right:20px;}
+
+/*热门活动*/
+.hot_adtity{width:1200px; margin:0px auto ; padding-top:31px;}
+.hot_adtity .newn{font-size:18px;font-weight:800;margin-left:14px;}
+.hot_adtity span{font-size:13px; margin-left:30px;}
+.hot_adtity .hot_title{ margin-bottom:28px;}
+.hot_title .hot_more{float:right; margin-right:25px; font-size:14px; color:#666666; line-height:24px;*margin-top:-25px;}
+.hot_adtity .totn_01{width:199px; height:276px; border:1px solid #e7e7e7;}
+.hot_adtity .totn_01{float:left; border-right:0px;  margin-bottom: -3px;}
+.hot_adtity .totn_01 .totn_child_01{width:100%;}
+.hot_adtity .totn_child_father{border-top:0px;}
+.hot_adtity .totn_child_02{float:left;}
+.hot_adtity .totn_child_02 a{display:block;} 
+.hot_adtity .totn_child_02 img{width:599px;height:275px;}
+.totn_01 .p_01{font-size:14px; color:#333333;text-align:center; overflow:hidden; height:21px;  margin-top:5px;}
+.totn_01 a{display:block; padding:10px;}
+.totn_01 .p_02{color: #666666; text-align: left; width: 152px; margin: 0px auto; height: 19px; overflow: hidden; padding-top: 15px;}
+.totn_01 .p_03{margin-top:7px;}
+.totn_01 .p_03 s{font-size:14px; color:#333333;margin-left:22px;}
+.totn_01 .p_03 span{font-size:18px; color:red;}
+.totn_01 .p_03 img{margin:2px 0 0 15px;}
+.totn_01 .p_03 .only{display:block;width:65px; height:20px; background-color:red; color:white; text-align:center; line-height:20px; padding:0; margin:2px 25px 0 0; float:none;float:right; }
+.totn_01 .totn_01_child {padding:0px;}
+.hot_adtity .totn_child_03 a{display:block;} 
+.hot_adtity .totn_child_03 img{width:400px;height:278px;}
+.shop_icon_01 {width: 0; height: 0;  border-top: 80px solid #1e8cd7; border-right: 80px solid transparent;  position: absolute;}
+.shop_icon_01 .durgname{ margin-top: -83px; height:10px; display:block; width: 70px;  margin-left: -5px; color: white;}
+.shop_icon_01 img{margin:0 0 0 5px;}
+.shop_icon_02 {width: 0; height: 0;  border-top: 80px solid #d77de1; border-right: 80px solid transparent;  position: absolute;}
+.shop_icon_02 .durgname{ margin-top: -83px; height:10px; display:block; width: 70px;  margin-left: -5px; color: white;}
+.shop_icon_02 img{margin:5px 0 0 5px;}
+.shop_icon_03 {width: 0; height: 0;  border-top: 80px solid #1e8cd7; border-right: 80px solid transparent;  position: absolute;}
+.shop_icon_03 .durgname{ margin-top: -83px; height:10px; display:block; width: 70px;  margin-left: -5px; color: white;}
+.shop_icon_03 img{margin:5px 0 0 5px;}
+
+/*店铺专区*/
+.shops_arean .shops_title img{padding-top:4px;}
+.shops_arean .newn{font-size:18px;font-weight:800;margin-left:14px;}
+.shops_arean span{font-size:13px; margin-left:30px;}
+.shops_arean .shops_title .style_a{float:right;line-height:27px;*margin-top:-25px;}
+.shops_arean .shops_title .style_a .style_a_child{ font-size:14px;}
+.shops_arean .shops_title{margin:0 0 30px 0;}
+.shops_title .style_a a:hover{border-bottom:1px solid #6aac26; color:#6aac26; padding-bottom:2px;}
+.shops_arean .drupn_icon_01{ width:196px; height:307px; float:left;  background-color: #f6f6f6;}
+.shops_arean .drupn_icon_01 p {color:#6aac26; font-size:24px; margin:26px 0 0 22px;}
+.shops_arean .drupn_icon_01 .go_to {display:block; width:46px; height:27px; background-color:#6dae23; font-size:13px; color:white; text-align:center; border-radius:12px; line-height:27px;margin :15px 0 0 19px;}
+.shops_arean .drupn_icon_01 .drupn_icon_img{display:block;padding:13px;}
+.shops_arean .drupn_icon_01 .drupn_icon_img img{width:100%;padding-top:18px;}
+.shops_arean{overflow:hidden; width:1200px; margin:0px auto ; padding-top:31px;}
+.shops_arean .drupn_icon_02{float:left;}
+.shops_arean .drupn_icon_02 ul {margin-bottom:2px;}
+.shops_arean .drupn_icon_02 ul li {float:left; background-color:#f6f6f6;margin:0 0px 0 2.3px;}
+.shops_arean .drupn_icon_02 ul li a{display:block;}
+.new_title .goodsn_01:hover .right_now{background-color:#6bad25; color:white;}
+.totn_child_03{float:left;}
+/*楼层专卖*/
+.floor_main{background-color:#f7f7f7;margin-top:33px;padding-bottom:30px;min-width:1200px;}
+.floor_main .floor_first{ width:1200px;margin:0px auto ;padding:33px 0 0 0;overflow:hidden;}
+.floor_first_icon{background:url(../images/floor_04.png) no-repeat;width:200px; height:78px; color:white;text-align:center;}
+.floor_first_icon span{font-size:18px;  line-height: 35px;}
+.floor_first_icon .mid_fllor{padding-top:15px;}
+.medcine_style{width:200px; background-color: #fff; margin-top: 5px;}
+.medcine_style ul li{float:left;margin-left:15px; width:48px;  height: 16px;overflow: hidden;  margin-top: 19px;}
+.medcine_style .last_style{padding-bottom:25px;}
+.floor_first .healthn{width:200px; height:330px; background-color:#d2fcc3;margin-top:5px;}
+.floor_first .healthn .floor_06{display:block;}
+.floor_first .healthn .cthealthn_01{font-size:30px; font-weight:bold; text-align:center;color:#80a11e; padding-top:30px;}
+.floor_first .healthn .cthealthn_02{font-size:18px; text-align:center;color:#80a11e; padding:20px 0 37px 0 ;}
+.floor_first .healthn .left_arrow{display:inline-block;width:18px; height:33px;background-color:#afd2a2;text-align:center;}
+.floor_first .healthn .right_arrow{display:inline-block;width:18px; height:33px;background-color:#afd2a2;text-align:center;float:right;}
+.floor_first .healthn .left_arrow img,.healthn .right_arrow img{margin-top:11px;}
+.floor_first .healthn .left_arrow:hover,.floor_first .healthn .right_arrow:hover{background-color:#80a11e;}
+/*上方药品*/
+.floor_first .medcinen_name {float:left;background-color:white; width:242px; height:330px;margin:0 0 0 8px;}
+.medcinen_name .med_price {margin-top:10px;}
+.medcinen_name .pro_duct{font-size:14px; color:#333333;  overflow:hidden; height:21px;  margin-top:25px; margin-left:16px;}
+.medcinen_name .resistance{color: #666666;width: 152px; height: 19px; overflow: hidden; padding-top: 15px; margin-left:16px;}
+.medcinen_name .med_price span{font-size: 18px; color: red;margin-left:16px;margin-top:15px;}
+.medcinen_name .med_price a{display:inline-block; width:76px; height:23px; background-color:#fc9313; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;}
+.medcinen_name .med_price s{margin-left:15px;}
+.medcinen_name .medn_logo a{display:block; padding:20px;}
+
+/*下方药品*/
+.floor_first .drugsn{float:left;width:492px; height:330px;background-color:#d1fcc2;margin-left:8px;}
+.floor_first .groups_drugsn{width:242px; height:212px;background-color:white; float:left;margin:6px 0 0 8px;}
+.floor_first .groups_drugsn .pro_duct{font-size:14px; color:#333333; overflow:hidden; height:21px;  margin-top:25px; margin-left:16px;}
+.floor_first .groups_drugsn .resistance {color: #666666;width: 152px; height: 19px; overflow: hidden; padding-top: 15px; margin-left:16px;}
+.floor_first .groups_drugsn .med_price {margin-top:10px;}
+.floor_first .groups_drugsn .med_price span{font-size: 18px; color: red;margin-left:16px;margin-top:15px;}
+.floor_first .groups_drugsn .med_price a{display:inline-block; width:76px; height:23px; background-color:#d77de1; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;*margin-top:-25px;}
+.floor_first .groups_drugsn .med_price s{margin-left:15px;}
+.groups_drugsn .medn_logo{width:228px;}
+.groups_drugsn .medn_logo a{display: block;width: 150px; height: 85px; float: right;}
+.groups_drugsn .medn_logo:hover img{  transform: translateX(-15px);}
+.groups_drugsn .medn_logo img{  transition: all .3s ease;}
+.medcinen_name .medn_logo:hover img{  transform: translateY(-15px);}
+/*二楼*/
+
+.floor_main .floor_second{ width:1200px;margin:0px auto ;padding:33px 0 0 0;overflow:hidden;}
+.floor_second_icon{background:url(../images/floor_10.png) no-repeat;width:200px; height:78px; color:white;text-align:center;}
+.floor_second_icon span{font-size:18px;  line-height: 35px;}
+.floor_second_icon .mid_fllor{padding-top:15px;}
+.medcine_style{width:200px; background-color: #fff; margin-top: 5px;}
+.medcine_style ul li{float:left;margin-left:15px; width:48px;  height: 16px;overflow: hidden;  margin-top: 19px;}
+.medcine_style .last_style{padding-bottom:25px;}
+.floor_second .healthn{width:200px; height:317px; background-color:#a5d1ff;margin-top:5px;}
+.floor_second .healthn .floor_06{display:block;}
+.floor_second .healthn .cthealthn_01{font-size:30px; font-weight:bold; text-align:center;color:#1e8cd7; padding-top:30px;}
+.floor_second .healthn .cthealthn_02{font-size:18px; text-align:center;color:#1e8cd7; padding:20px 0 37px 0 ;}
+.floor_second .healthn .left_arrow{display:inline-block;width:18px; height:33px;background-color:#89aed4;text-align:center;}
+.floor_second .healthn .right_arrow{display:inline-block;width:18px; height:33px;background-color:#89aed4;text-align:center;float:right;}
+.floor_second .healthn .left_arrow img,.healthn .right_arrow img{margin-top:11px;}
+.floor_second .healthn .left_arrow:hover,.floor_second .healthn .right_arrow:hover{background-color:#1e8cd7;}
+/*上方药品*/
+.floor_second .medcinen_name {float:left;background-color:white; width:242px; height:330px;margin:0 0 0 8px;}
+.medcinen_name .med_price {margin-top:10px;}
+.medcinen_name .pro_duct{font-size:14px; color:#333333;  overflow:hidden; height:21px;  margin-top:25px; margin-left:16px;}
+.medcinen_name .resistance{color: #666666;width: 152px; height: 19px; overflow: hidden; padding-top: 15px; margin-left:16px;}
+.medcinen_name .med_price span{font-size: 18px; color: red;margin-left:16px;margin-top:15px;}
+.medcinen_name .med_price a{display:inline-block; width:76px; height:23px; background-color:#fc9313; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;}
+.medcinen_name .med_price .diff_med{display:inline-block; width:76px; height:23px; background-color:#80a11e; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;}
+.medcinen_name .med_price s{margin-left:15px;}
+.medcinen_name .medn_logo a{display:block; padding:20px;}
+
+/*下方药品*/
+.floor_second .drugsn{float:left;width:492px; height:330px;background-color:#a5d1ff;  margin-left: 8px;}
+.floor_second .groups_drugsn{width:242px; height:212px;background-color:white; float:left;margin:6px 0 0 8px;}
+.floor_second .groups_drugsn .pro_duct{font-size:14px; color:#333333;overflow:hidden; height:21px;  margin-top:25px; margin-left:16px;}
+.floor_second .groups_drugsn .resistance {color: #666666;width: 152px; height: 19px; overflow: hidden; padding-top: 15px; margin-left:16px;}
+.floor_second .groups_drugsn .med_price {margin-top:10px;}
+.floor_second .groups_drugsn .med_price span{font-size: 18px; color: red;margin-left:16px;margin-top:15px;}
+.floor_second .groups_drugsn .med_price a{display:inline-block; width:76px; height:23px; background-color:#d77de1; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;*margin-top:-25px;}
+.floor_second .groups_drugsn .med_price .diff_a{display:inline-block; width:76px; height:23px; background-color:#ff0000; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;*margin-top:-25px;}
+.floor_second .groups_drugsn .med_price s{margin-left:15px;}
+.groups_drugsn .medn_logo{width:228px;}
+.groups_drugsn .medn_logo a{display: block;  width: 150px;  height: 85px; float: right;}
+
+
+/*三楼*/
+
+.floor_main .floor_third{ width:1200px;margin:0px auto ;padding:33px 0 27px 0;overflow:hidden;}
+.floor_third_icon{background:url(../images/floor_09.png) no-repeat;width:200px; height:78px; color:white;text-align:center;}
+.floor_third_icon span{font-size:18px;  line-height: 35px;}
+.floor_third_icon .mid_fllor{padding-top:15px;}
+.medcine_style{width:200px; background-color: #fff; margin-top: 5px;}
+.medcine_style ul li{float:left;margin-left:15px; width:48px;  height: 16px;overflow: hidden;  margin-top: 19px;}
+.medcine_style .last_style{padding-bottom:25px;}
+.floor_third .healthn{width:200px; height:317px; background-color:#fbe7cb;margin-top:5px;}
+.floor_third .healthn a{display:block;}
+.floor_third .healthn .cthealthn_01{font-size:30px;  text-align:center;color:#ffb04f; padding-top:30px;}
+.floor_third .healthn .cthealthn_02{font-size:18px; text-align:center;color:#ffb04f; padding:20px 0 37px 0 ;}
+.floor_third .healthn .floor_06{display:block;}
+.floor_third .healthn .left_arrow{display:inline-block;width:18px; height:33px;background-color:#d1c1a9;text-align:center;}
+.floor_third .healthn .right_arrow{display:inline-block;width:18px; height:33px;background-color:#d1c1a9;text-align:center;float:right;}
+.floor_third .healthn .left_arrow img,.healthn .right_arrow img{margin-top:11px;}
+.floor_third .healthn .left_arrow:hover,.floor_third .healthn .right_arrow:hover{background-color:#fc9313;}
+/*上方药品*/
+.floor_third .medcinen_name {float:left;background-color:white; width:242px; height:330px;margin:0 0 0 8px;}
+.medcinen_name .med_price {margin-top:10px;}
+.medcinen_name .pro_duct{font-size:14px; color:#333333;  overflow:hidden; height:21px;  margin-top:25px; margin-left:16px;}
+.medcinen_name .resistance{color: #666666;width: 152px; height: 19px; overflow: hidden; padding-top: 15px; margin-left:16px;}
+.medcinen_name .med_price span{font-size: 18px; color: red;margin-left:16px;margin-top:15px;}
+.medcinen_name .med_price a{display:inline-block; width:76px; height:23px; background-color:#fc9313; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;*margin-top:-25px;}
+.medcinen_name .med_price .diff_med{display:inline-block; width:76px; height:23px; background-color:#80a11e; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;}
+.medcinen_name .med_price s{margin-left:15px;}
+.medcinen_name .medn_logo a{display:block; padding:20px;}
+.medcinen_name .medn_logo a img{width:100%;  transition: all .2s ease;}
+
+/*下方药品*/
+.floor_third .drugsn{float:left;width:492px; height:330px;background-color:#fbe7cb;  margin-left: 8px;}
+.floor_third .groups_drugsn{width:242px; height:212px;background-color:white; float:left;margin:6px 0 0 8px;}
+.floor_third .groups_drugsn .pro_duct{font-size:14px; color:#333333;overflow:hidden; height:21px;  margin-top:25px; margin-left:16px;}
+.floor_third .groups_drugsn .resistance {color: #666666;width: 152px; height: 19px; overflow: hidden; padding-top: 15px; margin-left:16px;}
+.floor_third .groups_drugsn .med_price {margin-top:10px;}
+.floor_third .groups_drugsn .med_price span{font-size: 18px; color: red;margin-left:16px;margin-top:15px;}
+.floor_third .groups_drugsn .med_price a{display:inline-block; width:76px; height:23px; background-color:#d77de1; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;*margin-top:-25px;}
+.floor_third .groups_drugsn .med_price .diff_a{display:inline-block; width:76px; height:23px; background-color:#ff0000; color:white; text-align:center; line-height:23px; font-size:12px;margin-left:15px;float:right;margin-right:20px;}
+.floor_third .groups_drugsn .med_price s{margin-left:15px;}
+.groups_drugsn .medn_logo{width:228px;}
+.groups_drugsn .medn_logo a{  display: block; width: 150px; height: 85px; float: right}
+
+
+/*底部商标logo*/
+.footer_logo{width:1200px;margin:0px auto ;padding:33px 0 27px 0;overflow:hidden;background-color:#fff;}
+.footer_logo a{display:block;}
+.footer_logo .logo_first{margin-left:25px;}
+.footer_logo ul li{float:left;}
+.footer_logo ul li .logo_01{font-size:16px; color:#333333; font-weight:800;}
+.footer_logo ul li .logo_02{font-size:13px; color:#666666;display:block;}
+.footer_logo .logo_area{margin: 5px 20px 0 6px;border-right: 1px solid #e7e7e7;padding-right: 20px;}
+.footer_logo .logo_area p{margin-top:7px;}
+
+/*新品轮播*/.newright_choose{width:1200px;height:auto;overflow:hidden;position:relative;}
+.newright_choose_title{height:32px;width:1000px;padding-bottom:3px;background:url(../images/lizi_img001.jpg) repeat-x;}
+.newright_choose_title em{float:left;font-style:normal;line-height:32px;padding-left:13px;font-size:14px;}
+.newright_choose_title span{float:right;display:block;padding:8px 15px 0 0;height: 20px;}
+.newright_choose_title span b , .newright_choose_title span a{display:block;float:left;}
+.newright_choose_title span b , .newright_choose_title span b img{width:11px;height:11px;}
+.newright_choose_title span b img{cursor:pointer;}
+.newright_choose_prev{padding:2px 10px 0 0;}
+.newright_choose_next{padding:2px 0 0 0px;}
+.newright_choose_title span a{font-size:12px;background:url(../images/lizi_img005.jpg) no-repeat left center; padding-left:15px;margin-right:10px;}
+.newright_choose_title span a:hover{color:#f34d01;background:url(../images/lizi_img004.jpg) no-repeat left center;}
+.newright_choose_title span a.newright_choose_title_a1{color:#f34d01;background:url(../images/lizi_img004.jpg) no-repeat left center;}
+.newright_choose_main{padding-top:13px;height:292px;width:10000px;overflow:hidden;position:relative;z-index:1;}
+.newright_choose_main div{width:1200px;height:480px;float:left;}
+.newright_choose_main div span{width:390px;height:280px;display:block;float:left; border:5px solid  white; margin-left:0;}
+.newright_choose_main div span:hover{border:5px solid #eaeceb;}
+.newright_choose_main div span a{display:block;}
+.newright_choose_main_a1{padding:4px 3px 4px 4px;margin-bottom:4px;}
+.newright_choose_main_a1 , .newright_choose_main_a1 img{width:144px;height:234px;padding:16px 0 0 20px; float:left;}
+.newright_choose_main .title_01{float:right;font-size:20px; color:#333333; font-weight:800;width: 145px;padding:44px  32px 0 0 ; line-height:35px;}
+.newright_choose_main .tro_01{ float:right;font-size:14px; color:#666666; padding:10px 38px 0 0 ;}
+.newright_choose_main .peice_01{  float: right; padding-top: 17px; padding-right: 96px; color: red; font-size: 24px;}
+.newright_choose_main .right_now{display:block; border:1px solid #e7e7e7; width:107px; height:27px; float:right; margin-right:67px; line-height:27px;text-align:center; margin-top:17px;}
+.newright_choose_main .right_now img{margin:8px 0 0 5px;}
+.newright_choose_main .newn_img{padding-top:13px; float:left;}
+.newright_choose_main div span b{display:block;padding-left:10px;color:#787878;}
+.newright_choose_main div span p{line-height:20px;padding:0 10px;height:87px;color:#787878;}
+.newright_choose_main .div_main_02{background-color:#fef9f3;}
+.new_title .newright_choose .newright_choose_main .newright_choose_main_span1:hover .right_now{background-color:#6bad25; color:white;}
+.newright_choose_main .div_main_03{background-color:#f8ffef;}
+.newright_choose_main div span.newright_choose_main_span1 .newright_choose_main_a1{background:url(../images/lizi_img010.jpg) no-repeat;}
+.newright_choose_main div span.newright_choose_main_span1 b , .newright_choose_main div span.newright_choose_main_span1 p{color:#33a0ff;}
+.newright_choose .newright_choose_prev1 ,.newright_choose .newright_choose_next1{display:block;width:31px;height:30px;position:absolute;cursor:pointer;z-index:2;top:102px;}
+.newright_choose .newright_choose_prev1 img ,.newright_choose .newright_choose_next1 img{width:31px;height:30px;}
+.newright_choose .newright_choose_prev1:hover ,.newright_choose .newright_choose_next1:hover{opacity:0.7;.filter:alpha(opacity=70)}
+.newright_choose .newright_choose_prev1{left:18px;}
+.newright_choose .newright_choose_next1{left:954px;}
+.newright_choose_prev1 img{  width: 20px;margin-right: 5px; height: 20px;float:right; background-color: #bab4b4;}
+.newright_choose_prev1 img:hover{background-color:#6aac26;}
+.newright_choose_next1 img{width: 20px; height: 20px; float:right; background-color: #bab4b4;}
+.newright_choose_next1 img:hover{background-color:#6aac26;}
+
+/*一楼轮播样式开始*/
+.floor_first .drugsn .mid_banner .scroll .mod_01 .mod_child a{  width:114px;height:31px;line-height: 31px; text-align:center; color: white;background-color:#75b054; display:inline-block; font-size:15.9px;margin-top:30px;}
+#slide_01_dot2{text-align:center;margin:3px 0 0 0;}
+#slide_01_dot2 span{display:inline-block;margin:0 3px;width:15px;height:15px;vertical-align:middle;background:#cbcbcb;-webkit-border-radius:5px; border-radius:100px;cursor:pointer;}
+#slide_01_dot2 .selected{background:#75b054;}
+/*一楼轮播样式开结束*/
+
+/*二楼轮播样式开始*/
+.floor_second .drugsn .mid_banner .scroll .mod_01 .mod_child a{  width:114px;height:31px;line-height: 31px; text-align:center; color: white;background-color:#1e8cd7; display:inline-block; font-size:15.9px;margin-top:30px;}
+#slide_01_dot3{text-align:center;margin:3px 0 0 0;}
+#slide_01_dot3 span{display:inline-block;margin:0 3px;width:15px;height:15px;vertical-align:middle;background:#cbcbcb;-webkit-border-radius:5px; border-radius:100px;cursor:pointer;}
+#slide_01_dot3 .selected{background:#1e8cd7;}
+/*二楼轮播样式开结束*/
+
+/*三楼轮播样式开始*/
+.drugsn .scroll{width:492px;height:330px; position:relative;overflow:hidden;}
+.mod_01{float:left;width:492px;}
+.mod_01 .mod_child{float:left; width:170px;margin-left:30px;}
+.mod_01 .mod_child p{font-weight:800; font-size:24px; margin-top:30px;}
+.floor_third .mod_01 .mod_child a{  width:114px;height:31px;line-height: 31px; text-align:center; color: white;background-color:#fc9313; display:inline-block; font-size:15.9px;margin-top:30px;}
+.mod_01 img{display:block;width:492px;height:332px;float:right;}
+.dotModule_new{padding:0 5px;height:11px;line-height:6px;-webkit-border-radius:11px;position:absolute;bottom:20px;right:41%;z-index:11;}
+#slide_01_dot{text-align:center;margin:3px 0 0 0;}
+#slide_01_dot span{display:inline-block;margin:0 3px;width:15px;height:15px;vertical-align:middle;background:#cbcbcb;-webkit-border-radius:5px; border-radius:100px;cursor:pointer;}
+#slide_01_dot .selected{background:#fc9313;}
+/*三楼轮播样式开结束*//*一层左侧轮播开始*/#main_03{width:200px;height:330px;overflow:hidden;position:relative;}
+#main_03 .box{width:200px;height:167px;margin-top:12px; overflow:hidden;position:relative;}
+#main_03 .box img{width:200px;height:160px; position:absolute;left:0px;bottom:0; opacity:0;filter:alpha(opacity=0);}
+#main_03 .btnLeft_03{width:18px;height:33px;position:absolute;right:0px;top:132px;background: url(../images/nnn_02.png) no-repeat 6px 12px; background-size:50%;background-color:#afd2a2; z-index: 999;}
+#main_03 .btnRight_03{width:18px;height:33px;position:absolute;right:182px;top:132px;background:url(../images/nnn_01.png) no-repeat 4px 12px;background-size:50%;background-color:#afd2a2; z-index: 999; }
+#main_03 .btnLeft_03:hover,#main_03 .btnRight_03:hover{background-color:#6bad25;}
+#main_03 .page{width:132px;height:22px;position:absolute;bottom:15px;right:50px;}
+#main_03 .page a{display:inline-block;width:22px;height:22px;background:url(images/num_grey.png) no-repeat 0px 0px;margin:0px 11px;float:left;color:#FFF;text-decoration:none;text-align:center;}
+#main_03  .page a.active{background:url(images/num_red.png) no-repeat 0px 0px;}/*一层左侧轮播结束*/
+
+/*二层左侧轮播开始*/#main_02{width:200px;height:330px;overflow:hidden;position:relative;}
+#main_02 .box{width:200px;height:167px;margin-top:12px; overflow:hidden;position:relative;}
+#main_02 .box img{width:200px;height:160px;position:absolute;left:0px;bottom:0; opacity:0;filter:alpha(opacity=0);}
+#main_02 .btnLeft_02{width:18px;height:33px;position:absolute;right:0px;top:132px;background: url(../images/nnn_02.png) no-repeat 6px 12px; background-size:50%;background-color:#89aed4; z-index: 999;}
+#main_02 .btnRight_02{width:18px;height:33px;position:absolute;right:182px;top:132px;background:url(../images/nnn_01.png) no-repeat 4px 12px;background-size:50%;background-color:#89aed4; z-index: 999; }
+#main_02 .btnLeft_02:hover,#main_02 .btnRight_02:hover{background-color:#1e8cd7;}
+#main_02 .page{width:132px;height:22px;position:absolute;bottom:15px;right:50px;}
+#main_02 .page a{display:inline-block;width:22px;height:22px;background:url(images/num_grey.png) no-repeat 0px 0px;margin:0px 11px;float:left;color:#FFF;text-decoration:none;text-align:center;}
+#main_02  .page a.active{background:url(images/num_red.png) no-repeat 0px 0px;}/*二层左侧轮播结束*/
+
+/*三楼层左侧轮播*/
+#main_01{width:200px;height:330px;overflow:hidden;position:relative;}
+#main_01 .box{width:200px;height:167px;margin-top:12px; overflow:hidden;position:relative;}
+#main_01 .box img{width:200px;height:160px;position:absolute;left:0px;bottom:0; opacity:0;filter:alpha(opacity=0);}
+#main_01 .btnLeft_01{width:18px;height:33px;position:absolute;right:0px;top:132px;background: url(../images/nnn_02.png) no-repeat 6px 12px; background-size:50%;background-color:#d1c1a9; z-index: 999;}
+#main_01 .btnRight_01{width:18px;height:33px;position:absolute;right:182px;top:132px;background:url(../images/nnn_01.png) no-repeat 4px 12px;background-size:50%;background-color:#d1c1a9; z-index: 999; }
+#main_01 .btnLeft_01:hover,#main_01 .btnRight_01:hover{background-color:#fc9313;}
+#main_01 .page{width:132px;height:22px;position:absolute;bottom:15px;right:50px;}
+#main_01 .page a{display:inline-block;width:22px;height:22px;background:url(images/num_grey.png) no-repeat 0px 0px;margin:0px 11px;float:left;color:#FFF;text-decoration:none;text-align:center;}
+#main_01  .page a.active{background:url(images/num_red.png) no-repeat 0px 0px;}.logo_all {z-index:999;position:relative;}
+.middle_right {z-index:1}
+

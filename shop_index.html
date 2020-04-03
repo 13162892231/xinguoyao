@@ -1,0 +1,916 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>店铺首页</title>
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/shop_index.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.10.2.min.js"></script>
+    <script src="Assets/js/comm.js"></script>
+    <script src="Assets/js/shop_index.js"></script>
+</head>
+
+<body>
+    <!--头部-->
+    <div class="head">
+        <!--顶部-->
+        <div class="top_all">
+            <div class="top">
+                <!--登陆-->
+                <div class="top_left">
+                    <p>
+                        <a>
+                            <img src="Assets/images/home_01.png" /> 你好，欢迎来到中国医药网！
+                        </a>
+                        <span>请</span>
+                        <a href="javascript:void(0);" class="welcome">登录</a><span> | </span>
+                        <a href="javascript:void(0);">注册</a>
+                    </p>
+                </div>
+                <!--购物车-->
+                <div class="top_right">
+                    <div class="top_membercenter">
+                        <span>服务热线：</span>
+                        <span class="tels">400-000-0000</span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">我的订单 </a><span>| </span>
+                    </div>
+                    <div class="top_membercenter">
+                        <a href="javascript:void(0);">&nbsp;收藏夹 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- logo部分 -->
+        <div class="logo_all">
+            <div class="logo_left">
+                <div class="logo">
+                    <img src="Assets/images/trademark.png" alt="" />
+                    <img src="Assets/images/line.png" alt="" />
+                </div>
+                <div class="logo_pro">
+                    <div class="country ">
+                        <div class="switchcity">
+                            <!--<span class="area_icon"></span>-->
+                            <span id="sitename">全国站</span><span class="down_icon"></span>
+                        </div>
+                        <ul>
+                            <li class="hotcity">热门城市</li>
+                            <li><a data-id="1" href="javascript:void(0);">北京</a></li>
+                            <li><a data-id="2" href="javascript:void(0);">上海</a></li>
+                            <li><a data-id="3" href="javascript:void(0);">杭州</a></li>
+                            <li><a data-id="4" href="javascript:void(0);">天津</a></li>
+                            <li><a data-id="5" href="javascript:void(0);" class="cur">重庆</a></li>
+                            <li><a data-id="6" href="javascript:void(0);">湖北</a></li>
+                            <li><a data-id="7" href="javascript:void(0);">南京</a></li>
+                            <li><a data-id="8" href="javascript:void(0);">安徽</a></li>
+                            <li><a data-id="9" href="javascript:void(0);">辽宁</a></li>
+                            <li><a data-id="10" href="javascript:void(0);">湖南</a></li>
+                            <li><a data-id="11" href="javascript:void(0);">海南</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <span class="logo_a">全国医药一站式销售平台</span>
+                </div>
+
+            </div>
+            <!--搜索-->
+            <div class="logo_right">
+                <a href="javascript:void(0);" class="sreachtype"><span class="type">商品</span><span class="down_icon"></span></a>
+                <ul>
+                    <li>商品</li>
+                    <li>店铺</li>
+                </ul>
+                <input type="text" value="" class="inputText" placeholder="阿莫西林胶囊 | 感冒清热颗粒 | 小儿感冒颗粒" style="height: 40px; padding-left: 15px;" />
+
+                <div class="shop_opera">
+                    <a class="quilt_buyer" href="quick_purchase.html"><span>快速购买通道</span></a>
+                    <div class="shopcar_dispper">
+                        <a class="buyer" href="shopcar.html">
+                            <span class="gwc_buyer">购物车</span>
+                            <span class="numn">0</span>
+                            <span>
+                                <img src="Assets/images/banner_right_2.png" /></span>
+                        </a>
+                        <!--购物车列表-->
+
+
+                        <div class="spcar_child">
+                            <p class="clear_new">最新加入的商品</p>
+                            <p class="main_choose">
+                                <input type="checkbox" id="shop1" /><label for="shop1">全选</label><a class="look_all" href="javascript:void(0);">查看全部</a>
+                            </p>
+                            <div class="spacing_all">
+                                <p class="ill_list">
+                                    <a class="ill_names">
+                                        <input type="checkbox" id="shop2" /><label for="shop2">中国西药</label></a>
+                                    <a class="ill_prices">168.00</a>
+                                </p>
+                                <p class="ill_main_typelist">
+                                    <a class="ill_names_cloud">
+                                        <input type="checkbox" value="" class="all_choose" /><img src="Assets/images/hotn_06.png" /></a>
+                                    <a class="ill_troduct_styte">止咳枇杷颗粒10g*10袋</a>
+                                    <b>84*2<a href="javascript:void(0);" class="delete">删除</a></b>
+
+
+                                </p>
+                            </div>
+                            <div class="spacing_all">
+                                <p class="ill_list">
+                                    <a class="ill_names">
+                                        <input type="checkbox" id="shop3" /><label for="shop3">中国西药</label></a>
+                                    <a class="ill_prices">168.00</a>
+                                </p>
+                                <p class="ill_main_typelist">
+                                    <a class="ill_names_cloud">
+                                        <input type="checkbox" value="" class="all_choose" /><img src="Assets/images/hotn_06.png" /></a>
+                                    <a class="ill_troduct_styte">止咳枇杷颗粒10g*10袋</a>
+                                    <b>84*2<a href="javascript:void(0);" class="delete">删除</a></b>
+
+
+                                </p>
+                            </div>
+                            <div class="spacing_all">
+                                <p class="ill_list">
+                                    <a class="ill_names">
+                                        <input type="checkbox" id="shop4" /><label for="shop4">中国西药</label></a>
+                                    <a class="ill_prices">168.00</a>
+                                </p>
+                                <p class="ill_main_typelist">
+                                    <a class="ill_names_cloud">
+                                        <input type="checkbox" value="" class="all_choose" /><img src="Assets/images/hotn_06.png" /></a>
+                                    <a class="ill_troduct_styte">止咳枇杷颗粒10g*10袋</a>
+                                    <b>84*2<a href="javascript:void(0);" class="delete">删除</a></b>
+
+
+                                </p>
+                            </div>
+                            <p class="ill_totle">
+                                <a class="pro_totle">共<span>6</span>件产品</a>
+                                <a class="price_totle">共计<span>￥456.00</span></a>
+                                <a class="go_car" href="javascript:void(0);">去购物车</a>
+                            </p>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);" class="quilt_buyern"></a>
+                </div>
+
+            </div>
+        </div>
+        <!--菜单栏-->
+        <div class="menubar">
+            <h2>
+                <img src="Assets/images/neun.png" />全部药品分类</h2>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="javascript:void(0);">西药</a></li>
+                <li><a href="javascript:void(0);">中成药</a></li>
+                <li><a href="javascript:void(0);">生物制品</a></li>
+            </ul>
+            <!--药品分级-->
+            <div class="commoditype">
+                <div class="shopindex_type">
+                    <img src="Assets/images/shop_index_05.png" />
+                    <span>店铺分类</span>
+                </div>
+                <div class="title_main">
+                    <dl>
+                        <dt>
+                            <span class="type_icon type_icon_01">西药</span><span class="left_icon"><img src="Assets/images/rightn1.png"
+                                originalsrc="type_icon_05.png" cursrc="type_icon_05_cur.png" /></span></dt>
+                        <dd>
+
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">电解质&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">酸碱平衡</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);" class="westmed_01">抗感染药&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">电解质&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">酸碱平衡</a>
+                            </div>
+                            <div class="clear"></div>
+                        </dd>
+                    </dl>
+
+                    <div class="type_detail">
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="title_main">
+                    <dl>
+                        <dt>
+                            <span class="type_icon type_icon_02">中成药</span><span class="left_icon">
+                                <img src="Assets/images/rightn1.png" originalsrc="type_icon_05.png" cursrc="type_icon_05_cur.png" /></span></dt>
+                        <dd>
+
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">电解质&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">酸碱平衡</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">电解质&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">酸碱平衡</a>
+                            </div>
+
+                            <div class="clear"></div>
+                        </dd>
+                    </dl>
+
+                    <div class="type_detail" style="display: none;">
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="title_main">
+                    <dl>
+                        <dt>
+                            <span class="type_icon type_icon_03">中成药</span><span class="left_icon"><img src="Assets/images/rightn1.png" originalsrc="type_icon_05.png" cursrc="type_icon_05_cur.png" /></span></dt>
+                        <dd>
+
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">电解质&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">酸碱平衡</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">电解质&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">酸碱平衡</a>
+                            </div>
+
+                            <div class="clear"></div>
+                        </dd>
+                    </dl>
+
+                    <div class="type_detail" style="display: none;">
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="title_main">
+                    <dl>
+                        <dt>
+                            <span class="type_icon type_icon_04">中药饮品</span><span class="left_icon"><img src="Assets/images/rightn1.png" originalsrc="type_icon_05.png" cursrc="type_icon_05_cur.png" /></span></dt>
+                        <dd class="last">
+
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">电解质&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">酸碱平衡</a>
+                            </div>
+                            <div class="westmedicine">
+                                <a href="javascript:void(0);">抗感染药&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">电解质&nbsp;&nbsp;/</a>
+                                <a href="javascript:void(0);">酸碱平衡</a>
+                            </div>
+                        </dd>
+                    </dl>
+
+                    <div class="type_detail">
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                        <div class="type_content">
+                            <p>滋补调养</p>
+                            <span class="type_content_a">补血补气</span>
+                            <span>补肾壮阳壮阳</span>
+                            <span>减肥瘦身</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠</span>
+                            <span>免疫调节</span>
+                            <span>增强抵抗力</span>
+                            <span>安神助眠助眠</span>
+                            <span>免疫调节</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="shin_search">
+                    <input type="text" placeholder="店铺搜索" />
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/searchn.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--中间轮播图及其菜单内容-->
+    <div class="middle_main">
+        <div class="middle">
+            <!--banner轮播图-->
+            <div class="keChgImg">
+                <ul class="keImgs">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <img src="Assets/images/shin_banner.png" /></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <img src="Assets/images/shin_banner.png" /></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <img src="Assets/images/shin_banner.png" /></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <img src="Assets/images/shin_banner.png" /></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <img src="Assets/images/shin_banner.png" /></a>
+                    </li>
+
+                </ul>
+                <div class="keImgBtn">
+                    <ul>
+                        <li class="keCor1 keImgCutLi">
+                            <a></a>
+                        </li>
+                        <li class="keCor2">
+                            <a></a>
+                        </li>
+                        <li class="keCor3">
+                            <a></a>
+                        </li>
+                        <li class="keCor4">
+                            <a></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <img class="keChgBtnL" src="Assets/images/banner_left_1.png" />
+                    <img class="keChgBtnR" src="Assets/images/banner_right_1.png" />
+                </div>
+
+            </div>
+            <div class="drug_pages">
+                <div class="pages_name">
+                    <img src="Assets/images/good_kad.png" />
+                    <b>康爱多医药网</b>
+                </div>
+                <div class="seavers">
+                    <p class="pre_sale">店铺客服</p>
+                    <p class="sale_name">
+                        售前 凌达
+                        <span>
+                         <img src="Assets/images/shop_index_07.png" /></span>
+                        <a href="javascript:void(0);">和我联系</a>
+                    </p>
+                    <p class="sale_name">
+                        总监 投诉
+                        <span>
+                         <img src="Assets/images/shop_index_07.png" /></span>
+                        <a href="javascript:void(0);">和我联系</a>
+                    </p>
+                </div>
+                <div class="quality">
+                    <p><span>商品描述:</span><span>
+             <img src="Assets/images/shop_index_10.png" /></span><span>5.0</span></p>
+                    <p><span>商品描述:</span><span>
+             <img src="Assets/images/shop_index_10.png" /></span><span>5.0</span></p>
+                    <p><span>商品描述:</span><span>
+             <img src="Assets/images/shop_index_10.png" /></span><span>5.0</span></p>
+                    <p class="detail"><a href="javascript:void(0);">查看评分详细>></a></p>
+                </div>
+                <div class="phone_name">
+                    <p>联系人 : 陈先生</p>
+                    <p>联系方式：123456789</p>
+                    <p class="area"><span>所在地区：</span><a>河北省石家庄市</a></p>
+                    <p>订单数 ：3836</p>
+                    <p class="promit">资格证书<span><img src="Assets/images/shop_index_08.png" /></span></p>
+                    <p>互联网药品交易服务资格证书：<span class="arean_datail">冀 C20090001</span></p>
+                    <p class="cellect_shop">
+                        <a href="javascript:void(0);">
+                            <img src="Assets/images/search_06.png" />收&nbsp;&nbsp;&nbsp;藏&nbsp;&nbsp;&nbsp;本&nbsp;&nbsp;&nbsp;店</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--新品推荐-->
+    <div class="similar_goods">
+        <p class="similar_name">
+            <img src="Assets/images/new.png" />新品推荐</p>
+        <div class="similar_detail">
+            <ul>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="name_pri">￥13.00</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--热销商品-->
+    <div class="hots_goods">
+        <p class="similar_name">
+            <img src="Assets/images/hotn.png" />热销商品</p>
+        <div class="similar_detail">
+            <ul>
+                <li>
+                    <img src="Assets/images/humsn.png" class="hunsn" />
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_02.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_03.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_04.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_04.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_02.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <img src="Assets/images/humsn.png" class="hunsn" />
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_03.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_04.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <img src="Assets/images/humsn.png" class="hunsn" />
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_04.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_01.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <img src="Assets/images/humsn.png" class="hunsn" />
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_02.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_03.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <img src="Assets/images/humsn.png" class="hunsn" />
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_04.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="Assets/images/drug_allname_04.png" title="" /></a>
+                    <p class="name_pri">￥13.00</p>
+                    <p class="name_call">王老吉广东凉茶颗粒含糖 </p>
+                    <p class="name_types">感冒发热喉痛口干药品</p>
+                    <p class="manufactor">生产厂家：<span>中国医药</span></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--分页-->
+    <div class="pagelist">
+        <ul>
+            <li><a href="javascript:void(0);">首页</a></li>
+            <li><a href="javascript:void(0);">上一页</a></li>
+            <li class="cur"><a href="javascript:void(0);">1</a></li>
+            <li><a href="javascript:void(0);">2</a></li>
+            <li><a href="javascript:void(0);">3</a></li>
+            <li><a href="javascript:void(0);">4</a></li>
+            <li><a href="javascript:void(0);">5</a></li>
+            <li><a href="javascript:void(0);">6</a></li>
+            <li><a>...</a></li>
+            <li><a href="javascript:void(0);">10</a></li>
+            <li><a href="javascript:void(0);">下一页</a></li>
+            <li><a href="javascript:void(0);">尾页</a></li>
+        </ul>
+    </div>
+    <!--底部版权-->
+    <div class="footer">
+        <div class="bottom">
+            <ul class="userguide">
+                <li class="guide">
+                    <img src="Assets/images/footer_01.png" />用户指南</li>
+                <li class="problem">常见问题</li>
+                <li class="process">订购流程</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_02.png" />网上支付</li>
+                <li class="problem">银行转账</li>
+                <li class="coupons">优惠券使用指南</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_03.png" />会员注册</li>
+                <li class="problem">用户登录</li>
+                <li class="process">找回密码</li>
+            </ul>
+            <ul>
+                <li class="guide">
+                    <img src="Assets/images/footer_04.png" />关于我们</li>
+                <li class="problem">企业文化</li>
+                <li class="process">联系客服</li>
+            </ul>
+            <ul class="info">
+                <li class="telephone">
+                    <img src="Assets/images/footer_05.png" />咨询电话：<a>12345678</a></li>
+                <li>
+                    <img src="Assets/images/footer_06.png" />服务邮箱：<a>1234567@qq.com</a></li>
+                <li class="address">公司地址：重庆市渝中区民族路101号重庆交易大厦2楼</li>
+                <li class="address">COPYRIGHT 2011-2021 公信网电商平台(WWW.YAO1.CN) ALL RIGHTS RESERVED | 渝ICP备10202021-2</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        var wVal = 742;
+        var Timer = null;
+        $(".keImgs").width($(".keImgs").find("li").size() * wVal)
+        var keCutNum = 0;
+        var relNum = $(".keImgBtn li").size();
+
+        function srcMove() {
+            $(".keImgs").animate({
+                "left": -keCutNum * wVal
+            }, 200);
+            $(".keImgBtn li").removeClass("keImgCutLi");
+            $(".keImgBtn li").eq(keCutNum).addClass("keImgCutLi");
+            $(".keImgTxt li").hide();
+            $(".keImgTxt li").eq(keCutNum).show();
+        }
+
+        function keChgImg() {
+            keCutNum++;
+            if (keCutNum == relNum) {
+                keCutNum = 0;
+            }
+            srcMove();
+        }
+        var Timer = setInterval(keChgImg, 3000)
+        $(".keChgImg").hover(function() {
+            clearInterval(Timer)
+        }, function() {
+            Timer = setInterval(keChgImg, 3000)
+        });
+        $(".keChgBtnR").click(function() {
+            keCutNum++;
+            if (keCutNum == relNum) {
+                keCutNum = 0;
+            }
+            srcMove();
+        });
+        $(".keChgBtnL").click(function() {
+            keCutNum--;
+            if (keCutNum < 0) {
+                keCutNum = relNum - 1;
+            }
+            srcMove();
+        });
+        $(".keImgBtn li").hover(function() {
+            keCutNum = $(".keImgBtn li").index(this);
+            srcMove();
+        });
+    </script>
+</body>
+
+</html>

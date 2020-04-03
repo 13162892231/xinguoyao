@@ -1,0 +1,102 @@
+﻿.sub_shop {width:1200px; background-color:white; margin :0px auto ;overflow:hidden;  /*box-shadow:0px 0 10px  rgba(0,0,0,0) inset, 0px 0 10px  rgba(0,0,0,0) inset, 0 0px 10px rgba(0,0,0,0) inset, -1px 15px 23px -10px #bfbfbf;*/}
+/*步骤图*/
+.submit_ord {width:1200px; margin:25px auto 0;}
+ul.orderLiu{display: block; margin-left:255px;}
+ul.orderLiu li{display: block;float: left; background:url(../images/buy_item_bak.png) no-repeat 0 0;width: 230px;height: 97px;text-align: center;}
+ul.orderLiu li p{display: block;font-size: 14px;margin-top:20px;color:#808080;}
+ul.orderLiu li strong{display: block;font-size: 12px;color: #7d7d7d; font-weight: normal;margin-top: 14px;}
+ul.orderLiu li.cur{background:url(../images/buy_item_bak_cur.png) no-repeat 0 46px;}
+ul.orderLiu li.cur p{color: #47b6e7;}
+/*填写并核对订单*/
+.checks_order p{font-size:18px;color:#333333;margin-bottom:20px;}
+/*收货地址*/
+.main{border:1px solid #e7e7e7;padding:0 10px 28px;overflow:hidden;}
+.submit_ord .shop_address{height:45px;}
+.submit_ord .shop_address p{display:block;float:left;width:500px;line-height:45px;margin-left:5px;font-size:14px;}
+.submit_ord .shop_address p.arrive{ color:#6bad25;float:right;text-align:right;margin-left:0px;margin-right:5px;cursor:pointer;}
+/*收货地址信息*/
+.consignee_cont{overflow:hidden;margin:0 0 15px 28px;}
+.consignee_cont ul{height:42px;}
+.consignee_cont ul li{list-style: none;height: 30px;margin: 6px 0;float: left;width: 100%;}
+.consignee_cont .consignee_item,.consignee_cont .addr_detail,.consignee_cont .op_btns{float:left;}
+.consignee_cont .consignee_item {list-style: none;position: relative;border: 1px solid #ddd;height: 18px;line-height: 18px;padding: 5px 20px;width: 100px;text-align: center;cursor: pointer;background-color: #fff;}
+.consignee_cont .consignee_select b.cur {display: block;position: absolute;right: 0;bottom: 0;width: 19px;height: 11px;overflow: hidden;background: url(../images/selected_icon.png) no-repeat;}
+.consignee_cont .addr_detail{height: 30px;line-height: 30px;width:660px;}
+.consignee_cont .addr_detail span.addr_name,.consignee_cont .addr_detail span.addr_info,.consignee_cont .addr_detail span.addr_tel{margin-left: 10px;display:block;float:left;font-size:12px;}
+.consignee_cont .op_btns{visibility: hidden;float: right;text-align: right;height: 30px;line-height: 30px;width:190px;}
+.consignee_cont .op_btns .ftx_05{margin-right:15px;color:#6bad25;}
+.consignee_cont ul li:hover{background-color:#f7f7f7;}
+.consignee_cont ul li:hover .op_btns{visibility:visible;}
+.consignee_item:hover{padding: 4px 19px; border:2px solid #ff4f51;}
+.consignee_cont .consignee_select{padding: 4px 19px; border:2px solid #ff4f51;}
+.addr_switch {height: 18px;line-height: 18px;padding: 5px;cursor: pointer;width:70px}
+.addr_switch b{display: inline-block;height: 10px;line-height: 10px;width: 9px;margin-left: 1px;}
+.switch_off b{background: url(../images/addr_i.png) no-repeat -24px 0;}
+.switch_on b{background: url(../images/addr_i.png) no-repeat 0 0;}
+.consignee_item:hover{padding: 4px 19px; border:2px solid #ff4f51;}
+/*仓库地址*/
+.consignee_content{padding-bottom:15px;}
+.consignee_content .consignee_item {list-style: none;position: relative;border: 1px solid #ddd;height: 18px;line-height: 18px;padding: 5px 20px;width: 245px;text-align: center;cursor: pointer;background-color: #fff;overflow:hidden;}
+.consignee_content ul.consignee_list{padding:0 10px 0 28px;}
+.consignee_content ul.consignee_list li{width:300px;float:left;}
+.consignee_content .consignee_item span.iden{margin-left:10px;font-weight:600;}
+.consignee_content .consignee_item span.cur{color:#ff4f51;font-weight:400;}
+.consignee_content .consignee_select b.cur {display: block;position: absolute;right: 0;bottom: 0;width: 19px;height: 11px;overflow: hidden;background: url(../images/selected_icon.png) no-repeat;}
+.consignee_content .consignee_select{padding: 4px 19px; border:2px solid #ff4f51;}
+/*发票*/
+.invoice {margin:0 0 20px 0px;}
+.invoice span{padding-right:20px;}
+.invoice a{color:#6bad25;}
+
+
+
+
+/*总金额*/
+.total_amount {width:455px; height:76px; border:2px solid #ff4f51;float:right;margin-top:25px;padding:39px 13px 40px 0;}
+.total_amount p{margin-top:12px;margin-left:15px;text-align:right;}
+.total_amount p span.commodity{margin-left:20px;}
+.total_amount span {font-weight:bold;}
+.total_amount .payall_money span{margin-top:5px;}
+.total_amount .payall_money a{font-weight:bold; color:#ff4f51; font-size:20px;}
+.sunmit_order{width:1200px;float:right;margin:45px 0px;}
+#sunmit_order{display:block;width:190px;height:41px;background-color:#ff4f51;float:right;line-height:41px;color:#fff;font-size:16px; text-align:center;}
+
+
+.footer{border-top:1px solid #e7e7e7;}
+/*地址弹框*/
+.mask{display: none; position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index: 9999;filter: alpha(opacity=50);opacity: 0.5;overflow: hidden;background-color: #000;}
+.addr_receipt{width:715px;height:350px;z-index:10000;position:fixed;top:50%;margin-top:-175px;left:50%;margin-left:-357px;display:none;border:1px solid #dddddd;background-color:#ffffff;}
+.addr_receipt p.receipt{color:#666666;line-height:30px;padding-left:20px;background-color:#f1f1f1;line-height:30px;}
+.addr_receipt p.receipt span{margin-left: 560px;font-size: 24px;font-weight:400;color:#dcdcdc;cursor:pointer;}
+.information{width:695px;height:316px;background-color:#fff;padding-left:20px;}
+.information p{line-height:40px;color:#000;display:block;text-align:left;}
+.information p.mar{padding-top:20px;}
+.information p.left{float:left;margin-right:40px;}
+.information p.mar_left{margin-left:31px;}
+.information p span.red{color:#ff0000;margin-right:2px;}
+.information .sel select{margin-right:-5px;}
+.information p span.notice{border:1px solid #ffbdbe;background-color:#ffebeb;color:#e4393c;margin-left:7px;padding:2.5px 6px 6px; }
+.information p span.span_notice{border:1px solid #ffbdbe;background-color:#ffebeb;color:#e4393c;margin-left:7px;padding:3px 6px 5px; }
+.information span.email_notice{margin-left:67px;color:#999;}
+.information p.btn_save a{display: block; background-color: #f5f5f5;  width: 111px; height: 25px; line-height: 25px; text-align: center; border-radius: 3px;color:#999999;border:1px  solid #dddddd;margin-left:67px;margin-top:20px;}
+input[type="text"].long{width:255px;}
+
+
+
+/*发票弹框*/
+.item{width:360px;height:255px;z-index:10000;position:fixed;top:50%;margin-top:-90px;left:50%;margin-left:-150px;display:none;border:1px solid #dddddd;}
+.item p.receipt{color:#666666;line-height:30px;padding-left:20px;background-color:#f1f1f1;}
+.item p.receipt span{margin-left: 255px;font-size: 24px;font-weight:400;color:#dcdcdc;cursor:pointer;}
+.stock{width:340px;height:225px;background-color:#fff;padding-left:20px;}
+.stock p{line-height:40px;color:#000;display:block;text-align:left;}
+.stock p.mar{padding-top:20px;}
+.stock p.btn_save{position:relative;}
+.stock p.btn_save a{display: block; background-color: #f5f5f5;  width: 73px; height: 25px; line-height: 25px; text-align: center; border-radius: 3px;color:#999999;border:1px  solid #dddddd;position:absolute;left:50%;margin-left:-46px; top:20px;}
+.item .stock input {margin-left:20px;}
+.stock p span.red{color:#ff0000;margin-right:2px;}
+input[type="checkbox"] {margin: 0 2px 0 0;}
+
+
+/*截取字符长度   overflow:hidden; text-overflow:ellipsis; white-space:nowrap;*/
+
+
